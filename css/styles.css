@@ -746,7 +746,7 @@ footer > .conteiner {
 }
 
 .list-link {
-    display: inline-block;
+    display: block;
 }
 
 /*.text-img::before {
@@ -811,8 +811,8 @@ footer > .conteiner {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }*/
 
-.item:hover .list-link,
-.item:focus .list-link {
+.list-link:hover,
+.list-link:focus {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
